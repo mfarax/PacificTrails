@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="pacific.css">
+  <title>Pacific Trails Resort :: Reservations</title>
+  <meta charset="utf-8">
+</head>
+<body>
+<div id="wrapper">
+<header>
+    <a href="index.html">
+        <h1> Pacific Trails Resort</h1>
+    </a>
+</header>
+<nav>
+	<a href="index.html">Home </a>
+	<a href="activities.html">Activities</a>
+        <a href="reservations.html">Reservations</a>
+
+</nav>
+<div id="yurthero">
+
+</div>
+<main>
+  <h2>Reservations at Pacific Trails</h2>
+  <h3> Contact Us Today!</h3>
+   Required fields are marked with an askterisk * <br> <br>  
+
+  <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+   
+   <label for="Fname">First Name:</lable><input type="text" name="Fname" id="Fname" required><br>
+   <label for="Lname">Last Name:</lable><input type="text" name="Lname" id="Lname" required><br>
+   <label for="email">Email:</lable><input type="email" name="email" id="email" required placeholder="you@you.com"><br>
+   <label for="tel">Telephone:</lable><input type="tel" name="tel" id="tel" max="12"><br>
+   <label for="cal">Calendar:</lable><input type="date" name="cal" id="cal"><br>
+   <label for="stay">Nights:</lable><input type="number" name="number" id="number" min="1" max="10"><br>
+   <label for="com=">*Comments:</lable><textarea  name="com" id="com" rows="2" col="30" placeholder="Enter comment"></textarea>	<br><br>
+   <label for="submit="></lable><input type="submit" value="submit">
+</form>
+</main>
+<footer>Copyright &copy; 2020 Pacific Trails Reosrt<br>
+        <a href="mailto:Maxamed@Farax.com">Maxamed@Farax.com</a>
+</footer>
+</div>
+</body>
+</html>

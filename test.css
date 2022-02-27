@@ -1,0 +1,125 @@
+* {box-sizing: border-box;
+   margin:0;
+}
+
+body {font-family: Arial, helvitica, sans-serif;
+    background-color: #EAEAEA;
+
+    
+}
+header {background-color: #002171;
+    text-align: center;
+}
+header a {text-decoration:none ;}
+header:link {color:#FFFFFF; }
+header:visited {color:#90C7E3; }
+header:hover {color:#FFFFFF; }
+
+h1 {
+    color: #BBDEFB;
+    background-color: #002171;
+    margin: 0px;
+    font-family: Georgia, "Times New Roman", Serif;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    text-align: center;
+    letter-spacing:.25em;
+}
+
+nav {color: #FFFFFF;
+    font-size:120%;
+    padding: 0;
+    font-weight: bold;
+    text-align:center;
+    }
+nav a { text-decoration: none; 
+        }
+nav a:link {color:#5C7FA3; }
+nav a:visited {color:#344873; }
+nav a:hover {color:#A52A2A;}
+
+nav ul {margin: 0px;
+        padding-left:0px;
+        font-size: 1.2em;
+        list-style-image:none;}
+nav li {border: 1px solid #002171;}
+main { padding: 1px 20px 20px 30px;
+       background-color:#FFFFFF;
+       overflow: auto;
+       
+}
+main ul {list-style-image: url("marker.gif");
+}
+h2 {color: #1976D2;
+    font-family: Georgia, "Times New Roman", Serif;
+    text-shadow:1px 1px #CCCCCC;}
+h3 {color: #000033;
+    font-family: Georgia, "Times New Roman", Serif;}
+
+form {display: grid;
+      grid-template-row: auto;
+      grid-template-columns: 6em 1fr;
+      grid-gap:1em;
+      gap: 1em;
+      background-color:#EAEAEA;
+      font-family:Arial, san-serif;
+      width:60%;
+      min-width:20em;
+      padding:2em;}
+label {display:block;
+       margin-top:10px;}
+input {display:block;
+       margin-bottom:10px;}
+
+.companyname {color:#1976D2; font-weight:lighter; font-weight: bold;}
+.term {color: #002171;}
+.resort {font-weight: bold;}
+
+
+
+#contact {font-size:.90em}
+#wrapper {background-color: #90C7E3;
+    background-image: linear-gradient(#FFFFFF, #90C7E3);
+}
+#homehero {height: 300px;
+     /*      margin-left: 190px; */
+           margin-right: 20px;
+           background-image: url("coast2.jpg");
+           background-repeat: no-repeat;
+           background-size: 100% 100%;
+           clear:left}
+#yurthero {height: 300px;
+  /*  margin-left: 190px; */
+    background-image: url("yurt.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;}
+#trailhero {height: 300px;
+      /*      margin-left: 190px; */
+            background-image:url("trail.jpg") ;
+            background-repeat: no-repeat;
+            background-size:100% 100%;
+            }
+
+footer {font-size:.75em;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 2em;
+/*    margin-left: 190px; */
+    background-color: #FFFFFF;
+}
+table {
+    border: 2px solid #3399CC;
+}
+td {
+    padding: .05em;
+    border:2px solid #3399CC;
+
+}
+tr {
+    text-align: center;
+}
+tr:nth-of-type(even) {background-color: #808080}
+.text {
+    text-align: left;
+}
